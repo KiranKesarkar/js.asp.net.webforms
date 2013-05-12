@@ -4,6 +4,11 @@ using System.Web.UI;
 
 [assembly: WebResource("JavaScriptLibrary.JavaScript.ShowMessage.js", "application/x-javascript")]
 [assembly: WebResource("JavaScriptLibrary.JavaScript.GreetUser.js", "application/x-javascript")]
+[assembly: WebResource("JavaScriptLibrary.JavaScript.jquery-2.0.0.js", "application/x-javascript")]
+
+
+//<asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+
 
 namespace JavaScriptLibrary
 {
@@ -20,6 +25,9 @@ namespace JavaScriptLibrary
         private const string URL_JQUERY = "http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.0.js";
         private const string URL_JQUERY_HTTPS = "https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.0.js";
 
+        private const string NAME_JQUERY_LOCAL = "JavaScriptLibrary.JavaScript.jquery-2.0.0.js";
+
+
         private const string NAME_DUMMY_FILE = "JavaScriptLibrary.JavaScript.DummyFile.js";
 
     #endregion
@@ -35,6 +43,11 @@ namespace JavaScriptLibrary
         {
             Include_ShowMessage(manager, late);
             IncludeJavaScript(manager, NAME_GREET_USER, late);
+        }
+
+        public static void Include_jQueryLocal(ClientScriptManager manager, bool late = true)
+        {
+            IncludeJavaScript(manager, NAME_JQUERY_LOCAL, late);
         }
 
         public static void Include_jQuery(Page page, bool late = true)

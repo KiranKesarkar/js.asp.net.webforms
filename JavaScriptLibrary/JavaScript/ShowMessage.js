@@ -1,3 +1,5 @@
 ﻿function ShowMessage(msg) {
-    alert("Message From Website: " + msg);
+    var div = document.createElement("div");
+    div.innerText = "Message From ShowMessage.js: " + msg;
+    document.body.appendChild(div);
 }

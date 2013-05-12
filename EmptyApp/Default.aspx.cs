@@ -14,18 +14,12 @@ namespace EmptyApp
 
         }
 
-        //protected override void OnPreRender(EventArgs e)
-        //{
-        //    base.OnPreRender(e);
-
-        //    JavaScriptLibrary.JavaScriptHelper.Include_GreetUser(Page.ClientScript);
-        //}
-
         protected override void OnPreRender(EventArgs e)
         {
             base.OnPreRender(e);
-            JavaScriptLibrary.JavaScriptHelper.Include_jQuery(Page);
-            JavaScriptLibrary.JavaScriptHelper.Include_GreetUser(Page.ClientScript);
+            //JavaScriptLibrary.JavaScriptHelper.Include_jQuery(Page);
+            //JavaScriptLibrary.JavaScriptHelper.Include_GreetUser(Page.ClientScript);
+            //JavaScriptLibrary.JavaScriptHelper.Include_jQueryLocal(Page.ClientScript);
         }
 
     }
