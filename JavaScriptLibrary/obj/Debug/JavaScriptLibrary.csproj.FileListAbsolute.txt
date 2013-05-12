@@ -1,0 +1,5 @@
+C:\Users\ninja\Documents\Visual Studio 2012\Projects\EmptyApp\JavaScriptLibrary\bin\Debug\JavaScriptLibrary.dll
+C:\Users\ninja\Documents\Visual Studio 2012\Projects\EmptyApp\JavaScriptLibrary\bin\Debug\JavaScriptLibrary.pdb
+C:\Users\ninja\Documents\Visual Studio 2012\Projects\EmptyApp\JavaScriptLibrary\obj\Debug\JavaScriptLibrary.dll
+C:\Users\ninja\Documents\Visual Studio 2012\Projects\EmptyApp\JavaScriptLibrary\obj\Debug\JavaScriptLibrary.pdb
+C:\Users\ninja\Documents\Visual Studio 2012\Projects\EmptyApp\JavaScriptLibrary\obj\Debug\JavaScriptLibrary.csprojResolveAssemblyReference.cache

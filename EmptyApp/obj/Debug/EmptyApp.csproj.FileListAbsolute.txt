@@ -1,0 +1,7 @@
+c:\users\ninja\documents\visual studio 2012\Projects\EmptyApp\EmptyApp\bin\EmptyApp.dll
+c:\users\ninja\documents\visual studio 2012\Projects\EmptyApp\EmptyApp\bin\EmptyApp.pdb
+c:\users\ninja\documents\visual studio 2012\Projects\EmptyApp\EmptyApp\obj\Debug\EmptyApp.csprojResolveAssemblyReference.cache
+c:\users\ninja\documents\visual studio 2012\Projects\EmptyApp\EmptyApp\obj\Debug\EmptyApp.dll
+c:\users\ninja\documents\visual studio 2012\Projects\EmptyApp\EmptyApp\obj\Debug\EmptyApp.pdb
+C:\Users\ninja\Documents\Visual Studio 2012\Projects\EmptyApp\EmptyApp\bin\JavaScriptLibrary.dll
+C:\Users\ninja\Documents\Visual Studio 2012\Projects\EmptyApp\EmptyApp\bin\JavaScriptLibrary.pdb
